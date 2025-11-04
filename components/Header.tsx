@@ -2,7 +2,7 @@ import { api } from '@/convex/_generated/api';
 import { useQuery } from 'convex/react';
 import { View, Text } from 'react-native';
 import useTheme from '@/hooks/useTheme';
-import { createHomeStyles } from '@/assets/images/styles/home.styles';
+import { createHomeStyles } from '@/assets/styles/home.styles';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons } from '@expo/vector-icons';
 
