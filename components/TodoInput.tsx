@@ -7,8 +7,6 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { useState } from 'react';
 import { View, TextInput, TouchableOpacity, Text, Alert } from 'react-native'
 
-
-
 const TodoInput = () => {
     const { colors } = useTheme();
     const homeStyles = createHomeStyles(colors);
@@ -26,7 +24,6 @@ const TodoInput = () => {
             }
         }
     }
-
 
   return (
     <View style={homeStyles.inputSection}>
@@ -50,7 +47,6 @@ const TodoInput = () => {
         >
         <Ionicons name="add" size={24} color="#fff" />
         </LinearGradient>
-
         </TouchableOpacity>
       </View>
     </View>
