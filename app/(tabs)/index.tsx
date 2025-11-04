@@ -18,9 +18,8 @@ export default function Index() {
     <View
       style={styles.container}
     >
-      <Text style={styles.content}>Edit app/index.tsx to edit this screen111.</Text>
+      <Text style={styles.content}>Edit app/index.tsx to edit this screen.</Text>
       <Text>hi</Text>
-      <Link href="/about">Visit about</Link>
     </View>
   );
 }
